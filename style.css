@@ -1,0 +1,30 @@
+html,
+body {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin: 0;
+}
+
+.background-sidebar {
+    background-color: green;
+    width: 33vw;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: lightgray;
+    width: 67vw;
+}
+
+.form-container {
+    background-color: white;
+    height: 30vh;
+}
+
+.header,
+.footer {
+    flex-grow: 1;
+}
