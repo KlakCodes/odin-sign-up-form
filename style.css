@@ -8,14 +8,27 @@ body {
 
 .background-sidebar {
     background-color: green;
+    background-image: url("images/leaves.jpg");
+    background-position: center;
+    background-size: cover;
     width: 33vw;
+    position: relative;
+}
+
+.background-credit {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    width: inherit;
+    height: 30px;
 }
 
 .main-content {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: lightgray;
+    background-color: #EDEDED;
     width: 67vw;
 }
 
