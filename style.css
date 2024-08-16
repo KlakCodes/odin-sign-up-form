@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'norsebold';
+    src: url('fonts/norse-bold-webfont.woff2') format('woff2'),
+         url('fonts/norse-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 html,
 body {
     display: flex;
@@ -11,8 +20,31 @@ body {
     background-image: url("images/leaves.jpg");
     background-position: center;
     background-size: cover;
+    min-width: 300px;
     width: 33vw;
     position: relative;
+}
+
+.background-spacer {
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.background-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-family: norsebold;
+    background-color: rgba(0, 0, 0, 0.60);
+    color: white;
+    font-size: 6rem;
+}
+
+.background-logo > img {
+    width: 100px;
 }
 
 .background-credit {
@@ -20,6 +52,7 @@ body {
     bottom: 0;
     color: white;
     text-align: center;
+    min-width: inherit;
     width: inherit;
     height: 30px;
 }
