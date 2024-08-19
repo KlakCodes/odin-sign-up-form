@@ -140,6 +140,14 @@ input:focus {
     font-weight: bold;
 }
 
+.footer > button:hover {
+    background-color: #a04668;
+}
+
+.footer > button:active {
+    background-color: #7c3651;
+}
+
 .footer > p {
     font-size: 1.2rem;
 }
