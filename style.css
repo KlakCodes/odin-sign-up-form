@@ -105,6 +105,25 @@ form {
     width: 33%;
 }
 
+label {
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+input {
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+input:focus {
+    border: 1px solid blue;
+    box-shadow:2px 2px 3px rgba(0, 0, 0, 0.3);
+    outline: none;
+}
+
 .footer {
     padding-top: 30px;
     box-sizing: border-box;
