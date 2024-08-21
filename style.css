@@ -170,6 +170,10 @@ input:invalid + .invalid-input {
     font-size: 1.2rem;
 }
 
+p > a {
+    color: #672d43;
+}
+
 .header,
 .footer {
     flex: 1 0;
